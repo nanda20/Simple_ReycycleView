@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d6570ab90ab385cecc720a7e0b2c4d3ad1f1109f">
+        <dex dex="D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7f1adf8e0ce9a16fa418bf01c4b230e0662058b0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,5 @@
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\owner\hello\Gallery_Grid$GalleryAdapter$override.class
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\owner\hello\Gallery_Grid$Gallery$override.class
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\owner\hello\Gallery_Grid$override.class
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\owner\hello\Gallery_Grid$GalleryAdapter$ViewHolder$override.class
