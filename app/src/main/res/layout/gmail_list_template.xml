@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+    
+    >
+    <LinearLayout
+        android:layout_marginTop="130px"
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/space"
+        android:layout_below="@+id/button_round"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/date"
+        android:layout_alignEnd="@+id/date"/>
+    <Button
+        android:layout_marginRight="10dp"
+        android:id ="@+id/button_round"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="J"
+        android:textSize="30dp"
+        android:background="@drawable/bg_button_round"
+        />
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/pengirim"
+        android:text="facebook"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/button_round"
+        android:layout_toRightOf="@+id/button_round"
+        android:layout_toEndOf="@+id/button_round" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subject"
+        android:text="Loremipsum dolor"
+
+        android:layout_below="@+id/pengirim"
+        android:layout_toRightOf="@+id/button_round"
+        android:layout_toEndOf="@+id/button_round" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringkasan"
+        android:text="ringkasan"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/subject"
+        android:layout_toRightOf="@+id/button_round"
+        android:layout_toEndOf="@+id/button_round" />
+    <TextView
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="jan 25"
+        android:textColor="@color/date"
+        android:layout_alignTop="@+id/pengirim"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+
+         />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star"
+            android:layout_alignBottom="@+id/button_round"
+            android:layout_alignRight="@+id/date"
+            android:layout_alignEnd="@+id/date" />
+</RelativeLayout>
