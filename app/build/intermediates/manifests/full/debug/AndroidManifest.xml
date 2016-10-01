@@ -23,12 +23,25 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.owner.hello.Gallery_Grid" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
         </activity>
+        <activity android:name="com.example.owner.hello.MainIntent" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.owner.hello.Intent1" />
+        <activity android:name="com.example.owner.hello.Intent2" />
+        <activity android:name="com.example.owner.hello.DetailGmail" />
     </application>
 
 </manifest>

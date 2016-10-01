@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.owner.hello.DetailGmail">
+
+
+    <Button
+        android:id ="@+id/button_round1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="J"
+        android:textSize="30dp"
+        android:background="@drawable/bg_button_round"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/pengirim1"
+        android:text="facebook"
+        android:layout_below="@+id/button_round1"
+        android:layout_marginTop="44dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subject1"
+        android:text="Loremipsum dolor"
+
+        android:layout_below="@+id/pengirim1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringkasan1"
+        android:text="ringkasan"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/subject1"
+     />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/star"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_round1"
+         />
+    <TextView
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date1"
+        android:text="jan 25"
+        android:textColor="@color/date"
+        android:layout_below="@id/star1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        />
+</RelativeLayout>

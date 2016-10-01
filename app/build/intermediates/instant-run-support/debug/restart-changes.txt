@@ -1,0 +1,1 @@
+CHANGED,D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\owner\hello\Gmail$GmailAdapter.class

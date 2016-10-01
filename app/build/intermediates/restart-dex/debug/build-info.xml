@@ -4,30 +4,38 @@
     api-level="16"
     density="hdpi"
     format="7"
-    timestamp="16482023175384"
-    token="-6271337408598172792" >
+    timestamp="13678347322429"
+    token="-6271337408598172792"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="548" />
+        duration="180" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="301" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="25" />
     <task
         name="verifier"
-        duration="4" />
+        duration="1" />
 
     <artifact
-        location="D:\POLINEMA\sem5\Andro\Hello\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="16482023175384" >
+    <build timestamp="13626136813317" >
         <artifact
             location="D:\POLINEMA\sem5\Andro\Hello\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="13678347322429"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\POLINEMA\sem5\Andro\Hello\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
